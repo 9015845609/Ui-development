@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        body{
+            margin-bottom: 500px;
+        }
+        #orange,#orange th,#orange,#orange td{
+            border: 2px solid orangered;
+            border-collapse: collapse;
+
+        }
+        #orange{
+          width: 100%;
+          text-align: center;
+          padding: 10px;
+          box-shadow: 0 0 10px black;
+
+        }
+        #orange thead{
+            background-color: orangered;
+            color: white;
+        }
+        #orange tbody{
+            background-color: lightsalmon;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Simple table</h2>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>SNo</th>
+                <th>NAME</th>
+                <th>COMPANY</th>
+                <th>ADRESS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Jhon</td>
+                <td>Infosys</td>
+                <td>mirzapur</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>sumit</td>
+                <td>Infos</td>
+                <td>noida</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>amit</td>
+                <td>HCL</td>
+                <td>DELHI</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <h2>Table with col span</h2>
+
+    <table border="2">
+        <thead>
+            <tr>
+                <th>SNO</th>
+                <th>NAME</th>
+                <th colspan="2">COMPANY & ADDRESS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Jhon</td>
+                <td>Infosys</td>
+                <td>mirzapur</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>sumit</td>
+                <td>Infos</td>
+                <td>noida</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>amit</td>
+                <td>HCL</td>
+                <td>DELHI</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <h2>Table with rowspan</h2>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>SNo</th>
+                <th>NAME</th>
+                <th>COMPANY</th>
+                <th>ADRESS</th>   
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Jhon</td>
+                <td>Infosys</td>
+                <td>mirzapur</td> 
+            </tr>
+            <tr>
+                <!-- <td>2</td> -->
+                <td>sumit</td>
+                <td>Infos</td>
+                <td>noida</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>amit</td>
+                <td>HCL</td>
+                <td>DELHI</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <hr>
+
+    <h2>Custom Table</h2>
+    <table id="orange">
+        <thead>
+            <tr>
+                <th>SNo</th>
+                <th>NAME</th>
+                <th>COMPANY</th>
+                <th>ADRESS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Jhon</td>
+                <td>Infosys</td>
+                <td>mirzapur</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>sumit</td>
+                <td>Infos</td>
+                <td>noida</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>amit</td>
+                <td>HCL</td>
+                <td>DELHI</td>
+            </tr>
+        </tbody>
+    </table>
+
+      
+</body>
+</html>

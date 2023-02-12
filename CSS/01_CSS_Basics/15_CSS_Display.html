@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        div{
+            margin: 20px;
+        }
+        h3{
+            background-color: blueviolet;
+            padding: 5px;
+            margin: 5px;
+            display: inline;
+        }
+        span{
+            background-color: orange;
+            display: block;
+            padding: 5px;
+            margin: 5px;
+        }
+        a{
+            background-color: burlywood;
+            padding: 5px;
+            margin: 5px;
+            display: block ;
+
+        }
+        h1{
+            background-color: red;
+            color: white;
+            text-align: center;
+            display: none;
+        }
+        .parent{
+            background-color: lightgray;
+            padding: 10px;
+            text-align: center;
+        }
+        .child{
+            background-color: blueviolet;
+            padding: 10px;
+            color: whitesmoke;
+            width: 180px;
+            display: inline-block;
+            box-shadow: 0 0 10px black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- inline -->
+    <div>
+        <h3>Good Morning</h3>
+        <h3>Good Evening</h3>
+        <h3>Good Afetrnoon</h3>
+    </div>
+    <!-- block -->
+    <div>
+        <p>Lorem ipsum dolor sit
+            <span>1.amet consectetur adipisicing elit. Quod impedit</span>  
+            <span>2.dolorum repellendus quis et a asperiores possimus nemo </span> 
+            <span>3.repudiandae voluptatem. Ratione expedita dolores explicabo,</span>
+            pariatur exercitationem accusamus, quas nesciunt voluptatibus neque alias error incidunt voluptate id culpa dolorem nostrum voluptatem?</p>
+    </div>
+    <!-- anchor  -->
+    <div>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Course</a>
+        <a href="">Contact Us</a>
+    </div>
+    <!-- hide or none -->
+    <div>
+        <h1>Hello Iam Hiden</h1>
+    </div>
+    <!-- inline block -->
+    <div class="parent">
+        <div class="child">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit at iusto et ab itaque a fuga doloribus. Asperiores necessitatibus eos quaerat dolore sed tempore velit quis. Officia dolore veniam eius perspiciatis repudiandae, soluta velit tenetur eos mollitia corporis, ipsum quis.</p>
+            
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit at iusto et ab itaque a fuga doloribus. Asperiores necessitatibus eos quaerat dolore sed tempore velit quis. Officia dolore veniam eius perspiciatis repudiandae, soluta velit tenetur eos mollitia corporis, ipsum quis.</p>
+
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit at iusto et ab itaque a fuga doloribus. Asperiores necessitatibus eos quaerat dolore sed tempore velit quis. Officia dolore veniam eius perspiciatis repudiandae, soluta velit tenetur eos mollitia corporis, ipsum quis.</p>
+
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit at iusto et ab itaque a fuga doloribus. Asperiores necessitatibus eos quaerat dolore sed tempore velit quis. Officia dolore veniam eius perspiciatis repudiandae, soluta velit tenetur eos mollitia corporis, ipsum quis.</p>
+
+        </div>
+
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Border</title>
+   <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 500px;
+
+    }
+     div{
+        background: lightgreen;
+        text-align: center;
+        padding: 15px;
+        font-size: 25px;
+        width: 800px;
+    }
+     #border-all{
+        border: 10px solid darkgreen;
+    }
+    #border-single{
+        border-left: 10px dotted black;
+        /* border-top: 10px double black; */
+        /* border-right: 10px solid black; */
+        /* border-bottom: 10px dashed black; */
+    }
+    #border-rounded-all{
+        border: 10px solid blue;
+        border-radius: 30px;
+    }
+    #border-rounded-two{
+        border: 10px solid yellowgreen;
+        border-radius: 50px 0px 50px 0px;
+    }
+    #circle{
+        height: 100px;
+        width: 100px;
+        box-shadow: 0 0 10px black;
+        border-radius: 50%;
+        background-color: lightseagreen;
+    }
+    #border-circle{
+        height: 100px;
+        width: 100px;
+        box-shadow: 0 0 10px black;
+        border-radius: 50%;
+        background-color: lightseagreen;
+        border: 25px solid darkgreen;
+    }
+    #border-frame{
+        height: 100px;
+        width: 100px;
+        box-shadow: 0 0 10px black;
+        border: 25px solid darkgreen;
+        /* border-top: 25px solid yellow;
+        border-right: 25px solid red;
+        border-bottom: 25px solid orangered;
+        border-left: 25px solid goldenrod; */
+    }
+    #border-ring{
+        height: 100px;
+        width: 100px;
+        box-shadow: 0 0 10px black;
+        border-radius: 50%; 
+        /* border: 25px solid darkgreen; */
+        border-top: 25px solid yellow;
+        border-right: 25px solid red;
+        border-bottom: 25px solid orangered;
+        border-left: 25px solid goldenrod;
+        background: linear-gradient(45deg, red, black, red);
+    }
+    #youtube{
+        height: 315px;
+        width: 560px;
+        box-shadow: 0 0 10px black;
+        border: 25px solid darkgreen; 
+    }
+   </style>
+</head>
+<body>
+    <h2>Border All Side</h2>
+    <div id="border-all">
+        <h2>Border All Side</h2>
+    </div>
+
+    <h2>Border Single Side</h2>
+    <div id="border-single">
+        <h2>Border Single Side</h2>
+    </div>
+    <h2>Border Rounded All</h2>
+    <div id="border-rounded-all">
+        <h2>Border Rounded All</h2>
+    </div>
+    <h2>Border Rounded Two</h2>
+    <div id="border-rounded-two">
+        <h2>Border Rounded Two</h2>
+    </div>
+    
+    <h2>Circle</h2>
+    <section id="circle">
+
+    </section>
+
+    <h2>Border Circle</h2>
+    <section id="border-circle">
+
+    </section>
+
+    <h2>Border Frame</h2>
+    <section id="border-frame">
+
+    </section>
+
+    <h2>Border Ring</h2>
+    <section id="border-ring">
+
+    </section>
+    <h2>Custom Border</h2>
+    <section id="youtube">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/g2HMW_0Yv6M?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+</body>
+</html>

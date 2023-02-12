@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Backgrounds</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 500px;
+        }
+        #bg-color{
+            background-color: teal;
+        }
+        #bg-image{
+            box-shadow: 0 0 10px black;
+            padding: 15px;
+            width: 500px;
+            background-image: url(img_background/img2.jpg);
+            color: whitesmoke;
+        }
+        #bg-repeat{
+            width: 500px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            background-color: lightsalmon;
+            background-image: url(img_background/Ball1.png);
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-attachment: scroll;
+            /* short cut method */
+            /* background: lightcoral url(img_background/Ball1.png) no-repeat scroll top right; */
+            /* background: color image repeat attachment position; */
+        }
+        #bg-position{
+            width: 500px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            background: rgb(250, 7, 7) url(img_background/Ball1.png) no-repeat scroll bottom right;
+        }
+        #bg-attachment{
+            width: auto;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            background: white url(img_background/burger3.jpg) no-repeat fixed center;
+        }
+        #bg-size{
+            width: 500px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            background-image: url(img_background/burger3.jpg);
+            background-size: cover;
+        }
+        #gradient{
+            width: 500px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            background: linear-gradient(45deg, black, red, black); 
+        }
+    </style>
+</head>
+<body>
+    <h2>Background Color</h2>
+    <div id="bg-color">
+        <h1>Iam with teal color Background</h1>
+    </div>
+
+    <h2>Background Image</h2>
+    <div id="bg-image">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem tenetur, sapiente omnis quod sunt dolores repellendus neque debitis porro quos minus provident hic illum eveniet aliquam quisquam maiores laudantium sed vero mollitia iste aspernatur dolorem quaerat odit! Eligendi porro eaque quibusdam sit voluptate. Eligendi cupiditate culpa nostrum, natus sint assumenda!</p>
+    </div>
+
+    <h2>Background attachment</h2>
+    <div id="bg-attachment">
+    </div>
+
+    <h2>Background Repeat</h2>
+    <div id="bg-repeat">     
+    </div>
+
+    <h2>Background position</h2>
+    <div id="bg-position">       
+    </div>
+    <h2>Backgroubd Size</h2>
+    <div id="bg-size">
+
+    </div>
+
+    <h2>Gradient</h2>
+    <div id="gradient">
+
+    </div>
+
+</body>
+</html>

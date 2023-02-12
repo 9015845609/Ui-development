@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector 2</title>
+    <style>
+        input[type="text"]{
+            background-color: aqua;
+        }
+        input[type="text"]:focus{
+            background-color: wheat;
+            font-size: 20px;
+            transition: all 0.5s;
+        }
+        input[type="password"]{
+           background-color: yellow;
+        }
+        input[type="submit"]{
+            background-color: bisque;
+        }
+        input[type="submit"]:hover{
+            background-color: rgb(244, 137, 7);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="">User Name</label>
+        <input type="text">
+        <br>
+        <label for="">Password</label>
+        <input type="password">
+        <br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
