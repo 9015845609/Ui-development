@@ -59,7 +59,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .main-content:hover .curtain{
     transform: translateY(0%);
